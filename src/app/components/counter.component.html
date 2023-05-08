@@ -1,1 +1,10 @@
-<p>counter works!</p>
+<h1>------ Counter Component Below --------</h1>
+<h1> My Counter </h1>
+<h2>{{ counter }} </h2>
+
+<div>
+    <button type="button" (click)="count(1)"> Increased with hardcode </button>
+    <button type="button" (click)="count(-1)"> Decrease with hardcode </button>
+    <button type="button" (click)="inc()"> Increase with method </button>
+    <button type="button" (click)="dec()"> Decrease with method </button>
+</div>
