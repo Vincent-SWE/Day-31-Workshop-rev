@@ -8,11 +8,12 @@ import { Component, Input } from '@angular/core';
 export class MyComponentComponent {
 
 
-  @Input() childMessage1!: string;
+  @Input()
+  title = "Dancing Bear"
 
-  @Input() childMessage2!: string;
-
-
+  @Input()
+  imageUrl = "/assets/polar-bear.gif"
+  
 
 
 

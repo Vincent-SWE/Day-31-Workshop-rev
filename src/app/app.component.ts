@@ -8,11 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'day-31-workshop-rev'
 
-  parentMessage1 = 'Hello hello 1st';
-  parentMessage2 = 'The 2nd one';
-
-  
-
-
-
 }
